@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.main_box {
+  background-image: url(photo.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/* open button */
+.btn_one {
+  color: white;
+  font-size: 30px;
+  line-height: 60px;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+}
+
+/* sidebar */
+.sidebar_menu {
+  position: fixed;
+  left: -300px;
+  height: 100vh;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+  transition: 0.3s linear;
+}
+
+/* logo */
+.ghi {
+  position: absolute;
+  left: 40px;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  top: 10px;
+}
+
+/* close button */
+.btn_two {
+  color: gray;
+  font-size: 25px;
+  position: absolute;
+  left: 260px;
+  top: 10px;
+}
+
+/* menu */
+.menu {
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 80px;
+}
+
+.menu li {
+  list-style: none;
+  padding: 12px 20px;
+}
+
+.menu i {
+  margin-right: 10px;
+}
+
+.divy {
+  color: white;
+  text-decoration: none;
+}
+
+/* social */
+.social_media {
+  position: absolute;
+  bottom: 40px;
+  left: 25%;
+}
+
+.mno {
+  color: white;
+  margin: 0 6px;
+  opacity: 0.6;
+}
+
+/* hidden checkbox */
+#check {
+  display: none;
+}
+
+/* hover effects */
+.divy:hover {
+  text-shadow: 0 0 6px white;
+}
+
+.btn_one i:hover,
+.btn_two i:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.mno:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* toggle sidebar */
+#check:checked ~ .sidebar_menu {
+  left: 0;
+}
+
+#check:checked ~ .btn_one i {
+  opacity: 0;
+}

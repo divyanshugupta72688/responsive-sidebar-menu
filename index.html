@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Sidebar Project</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="main_box">
+      <!-- hidden checkbox -->
+      <input type="checkbox" id="check" />
+
+      <!-- open button -->
+      <div class="btn_one">
+        <label for="check">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
+
+      <!-- sidebar -->
+      <div class="sidebar_menu">
+        <div class="logo">
+          <a class="ghi" href="#">D G</a>
+        </div>
+
+        <!-- close button -->
+        <div class="btn_two">
+          <label for="check">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
+
+        <!-- menu -->
+        <div class="menu">
+          <ul>
+            <li><i class="fa-solid fa-image"></i><a class="divy" href="#">Gallery</a></li>
+            <li><i class="fa-solid fa-arrow-up-right-from-square"></i><a class="divy" href="#">Shortcuts</a></li>
+            <li><i class="fa-solid fa-photo-film"></i><a class="divy" href="#">Exhibits</a></li>
+            <li><i class="fa-solid fa-calendar-days"></i><a class="divy" href="#">Events</a></li>
+            <li><i class="fa-solid fa-store"></i><a class="divy" href="#">Store</a></li>
+            <li><i class="fa-solid fa-phone"></i><a class="divy" href="#">Contact</a></li>
+            <li><i class="fa-regular fa-comments"></i><a class="divy" href="#">Feedback</a></li>
+          </ul>
+        </div>
+
+        <!-- social -->
+        <div class="social_media">
+          <a class="mno" href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a class="mno" href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a class="mno" href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a class="mno" href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
