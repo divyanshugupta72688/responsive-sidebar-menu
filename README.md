@@ -5,8 +5,7 @@ A modern and responsive sidebar navigation menu created using **pure HTML and CS
 ---
 
 ## 🚀 Live Demo
-(Add deployed link here)
-👉 https://your-live-link.com
+ https://divyanshugupta72688.github.io/responsive-sidebar-menu/
 
 ---
 
